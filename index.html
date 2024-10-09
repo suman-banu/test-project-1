@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text-website</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 80px;
+    background: black;
+}
+.logo {
+    font-family: fangsong;
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: oblique;
+    color: #e0a605;
+    align-content: center;
+}
+.icon {
+    font-size: 26px;
+    color: #e0a605;
+    display: flex;
+    align-self: center;
+    gap: 10px
+    ;
+}
+.image img {
+    width: 100%;
+}
+.pagination-container {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0px;
+        }
+
+        /* .pagination-controls {
+            margin-bottom: 20px;
+        } */
+
+        .pagination-controls label {
+            padding: 10px 20px;
+            background-color: #ae8625;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="radio"] {
+            display: none;
+        }
+        .page-content {
+            display: none;
+        }
+        #page1:checked~.content #content1,
+        #page2:checked~.content #content2,
+        #page3:checked~.content #content3,
+        #page4:checked~.content #content4,
+        #page5:checked~.content #content5 {
+            display: block;
+            /* width: 98%; */
+        }
+        #page1:checked~.pagination-controls label[for="page1"],
+        #page2:checked~.pagination-controls label[for="page2"],
+        #page3:checked~.pagination-controls label[for="page3"],
+        #page4:checked~.pagination-controls label[for="page4"],
+        #page5:checked~.pagination-controls label[for="page5"] {
+            background-color: #c78d20;
+            color: white;
+        }
+     
+        .page-content {
+            padding: 20px;
+        }
+        .image-3 img {
+           width: 250px;
+           border-radius: 15px;
+         }
+         footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+    background: black;
+    color: white;
+}
+span {
+    color:#ae8625;
+}
+
+.pagination-controls {
+    width: 98%;
+}
+.content {
+    width: 98%;
+}
+.image-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.box1 {
+    border: 2px solid #ae8625;
+    padding: 5px;
+}
+</style>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <h1>Berrylush</h1>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                </div>
+            </header>
+            <div class="container1">
+                <div class="image">
+                    <img src="7458ff5c-4216-4975-8137-2861d2d12e31.avif" alt>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="pagination-container">
+
+                <input type="radio" name="pagination" id="page1" checked>
+                <input type="radio" name="pagination" id="page2">
+                <input type="radio" name="pagination" id="page3">
+                <input type="radio" name="pagination" id="page4">
+                <input type="radio" name="pagination" id="page5">
+
+                <div class="pagination-controls">
+                    <label for="page1">all</label>
+                    <label for="page2">Dresses</label>
+                    <label for="page3">Tops</label>
+                    <label for="page4">corrds</label>
+                    <label for="page5">jumpsuits</label>
+                </div>
+
+                <div class="content">
+                    <div class="page-content" id="content1">
+                        <div class="image-3">
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 1 .hover img 1.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 2 .hover img 2.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 3 .hover img 3.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 4 .hover img 4.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 5 .hover img 5.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 6 .hover img 6.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 7 .hover img 7.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/crossbody img 8 .hover img 8.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-content" id="content2">
+                        <div class="image-3">
+
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 1 hover 1.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 2 hover 2.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 3 hover 3.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 4 hover 4.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 5 hover 5.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 6 hover 6.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 7 hover 7.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/handbag img 8 hover 8.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="page-content" id="content3">
+
+                        <div class="image-3">
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="page-content" id="content4">
+
+                        <div class="image-3">
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="page-content" id="content5">
+                        <div class="image-3">
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+                            <div class="box1">
+                                <img
+                                    src="/2st-project img - Copy/2st pro-2 line ,2 img.webp"
+                                    alt>
+                                <div class="figc">
+                                    <p>hijkjk</p>
+                                    <p>hsugdsbjb</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div class="footer1">
+                <p>2024 Berrylus. All Rights Reserved. Desidne By l
+                    <span>@john</span></p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
